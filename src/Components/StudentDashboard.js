@@ -36,9 +36,9 @@ const StudentDashboard = () => {
 
       {/* Main Content */}
       <div className="content">
-        {activeSection === "profile" && <StuProfile />}
-        {activeSection === "courses" && <StuCourseEnrollment />}
-        {activeSection === "batches" && <StuBatches />}
+        {activeSection === "profile" && <StuProfile/>}
+        {activeSection === "courses" && <StuCourseEnrollment/>}
+        {activeSection === "batches" &&  <StuBatches/>}
       </div>
     </div>
   );

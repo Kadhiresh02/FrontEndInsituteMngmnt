@@ -24,6 +24,10 @@ import TeacherDashboard from '../Components/TeacherDashboard';
 import EnrolledCourses from '../Components/EnrolledCourses';
 import CreateCourse from '../Components/CreateCourse';
 import AdminDashboard from '../Components/AdminDashboard';
+import StuProfile from '../Components/StuProfile';
+import StuCourseEnrollment from '../Components/StuCourseEnrollment';
+import StuBatches from '../Components/StuBatches';
+import StudentMainDash from '../Components/StudentMainDash';
 
 
 const routing = createBrowserRouter([
@@ -43,8 +47,16 @@ const routing = createBrowserRouter([
       {path:'student',element: <StudentPageComp/>},
       {path:'teacher',element: <TeacherPageComp/>},
 
-      {path:'StudentDash',element:<StudentDashboard />}, //by me need to delete
+    //   {path:'/students',element:<StudentMainDash/>,children:[
+    //     {path:'profile',element:<StuProfile/>},
+    //     {path:'StuCourseEnrollment',element: <StuCourseEnrollment/>},
+    //     {path:'StuBatches1',element: <StuBatches/>},
+    //   ]},
+    //  //by me need to delete
 
+     {path:'StudentDash',element:<StudentDashboard />}, //by me need to delete
+
+     
       { path: 'Myprofile' , element: <MyProfilePageComp/> 
         , children:[
         {path:'admin',element:<AdminPageComp />, children:[
@@ -59,6 +71,9 @@ const routing = createBrowserRouter([
           {path:'',element:<StudentDashboard />}, 
           {path:'courses',element:<BatchManagement />}, 
         ]},
+       
+
+
         {path:'teacher',element:<TeacherPageComp /> , children:[
           {path:'',element:<TeacherDashboard />},
           {path:'enrolledcourses',element:<EnrolledCourses />},

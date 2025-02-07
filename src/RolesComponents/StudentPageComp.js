@@ -4,7 +4,8 @@ import { Outlet } from 'react-router-dom'
 const StudentPageComp = () => {
   return (
     <div>StudentPageComp
-      <Outlet></Outlet>
+      
+       <Outlet></Outlet> 
     </div>
   )
 }
