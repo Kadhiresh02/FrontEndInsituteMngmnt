@@ -8,7 +8,8 @@ const StuProfile = () => {
     phone: "1234567890",
     dob: "2000-01-01",  // Default format: YYYY-MM-DD
     gender: "Male",
-  });
+  }
+);
 
   const [editMode, setEditMode] = useState(false);
 

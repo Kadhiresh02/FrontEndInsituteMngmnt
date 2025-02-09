@@ -319,7 +319,7 @@
 
 .batch-card {
   
-  background: linear-gradient(91deg,  #f8cb81 , white );; /* Softer white background */
+  /* background: linear-gradient(91deg,  #f8cb81 , white );  */
   border: 1px solid #e0e0e0; /* Light gray border */
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

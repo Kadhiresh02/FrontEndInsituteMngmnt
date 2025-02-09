@@ -354,3 +354,108 @@
     margin-bottom: 5px;
   }
     
+  .section-container {
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .nav-button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff8e35;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .section-heading {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .course-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .enroll-button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 3px;
+  }
+  
+
+  /* ================================================ */
+  .course-section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .course-navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  
+  .course-button {
+    background-color: #FF8E35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .course-heading {
+    margin-bottom: 15px;
+  }
+  
+  .course-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-item {
+     
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: antiquewhite;
+
+  }
+  
+  .enroll-btn {
+    background-color: #FF8E35;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
